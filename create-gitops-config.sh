@@ -9,7 +9,7 @@ az k8s-configuration create --name hello-arc-app \
 
 
 az k8s-configuration create --name hello-arc-app \
-  --cluster-name devops-kube \
+  --cluster-name kube-devops-arc \
   --resource-group azure-devops \
   --operator-instance-name hello-arc-oper \
   --operator-namespace hello-arc-ns \
